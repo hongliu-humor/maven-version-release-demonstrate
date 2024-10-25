@@ -33,6 +33,14 @@
         <developerConnection>scm:git:https://github.com/LJiangTao/maven-version-release-demonstrate.git</developerConnection>
     </scm>
 
+    <distributionManagement>
+            <repository>
+                <id>local-repository</id>
+                <name>Local Repository</name>
+                <url>file:///${project.basedir}/.m2/repository</url>
+            </repository>
+    </distributionManagement>
+
     <build>
         <pluginManagement>
             <plugins>
