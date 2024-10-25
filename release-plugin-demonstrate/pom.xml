@@ -26,11 +26,11 @@
         <!-- 公开访问连接 -->
         <url>https://github.com/LJiangTao/maven-version-release-demonstrate.git</url>
         <!-- 可以读取代码的地址 -->
-        <connection>scm:git:git@github.com:LJiangTao/maven-version-release-demonstrate.git</connection>
+        <connection>scm:git:https://github.com/LJiangTao/maven-version-release-demonstrate.git</connection>
         <!-- 拥有提交代码的地址-->
         <!-- 具体可以参考 https://maven.apache.org/pom.html#scm-->
         <!-- SCM URL 格式连接: https://maven.apache.org/scm/scm-url-format.html-->
-        <developerConnection>scm:git:git@github.com:LJiangTao/maven-version-release-demonstrate.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/LJiangTao/maven-version-release-demonstrate.git</developerConnection>
     </scm>
 
     <build>
